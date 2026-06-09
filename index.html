@@ -312,7 +312,7 @@
     <div class="container">
 
         <div class="header-title">Tbay Match Day</div>
-        <h2 class="main-title">Football Frenzy</h2>
+        <h2 class="main-title">Football Trivia</h2>
         
         <div id="loader" class="loader"></div>
         <p id="questionText">Preparing the pitch...</p>
@@ -323,7 +323,7 @@
             <button class="option-btn" id="opt3" onclick="selectOption(this)"></button>
         </div>
         
-        <button id="submitBtn" onclick="submitAnswer()">Kick Off ➔</button>
+        <button id="submitBtn" onclick="submitAnswer()">Submit</button>
         
         <p id="message"></p>
         
@@ -483,7 +483,7 @@
             }
 
             submitBtn.disabled = true;
-            submitBtn.innerText = "Reviewing VAR... 📺"; 
+            submitBtn.innerText = "Reviewing"; 
             
             messageEl.innerText = "";
             couponWrapper.style.display = "none";
